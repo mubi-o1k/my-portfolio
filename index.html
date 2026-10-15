@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mubishira | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="#home" class="logo">&lt;/&gt; Mubishira</a>
+
+        <button id="menuToggle" class="menu-toggle"
+                aria-label="Toggle navigation">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p class="accent">Hello, I'm</p>
+        <h1>Mubishira</h1>
+        <h2>BCA Graduate | Aspiring Software Developer</h2>
+
+        <p>
+            I am a BCA graduate from Garden City University.
+            I enjoy web development, solving problems, and
+            learning new technologies.
+        </p>
+
+        <a href="#projects" class="btn">View My Projects</a>
+        <a href="resume.pdf" download class="btn btn-outline">
+            Download Resume
+        </a>
+
+        <div class="social-links">
+            <a href="https://github.com/mubi-o1k"
+               target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/"
+               target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+    </div>
+
+    <div class="profile">
+        <div class="profile-circle">M</div>
+        <p>Keep learning. Keep growing!</p>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <p class="accent">01 / About Me</p>
+    <h2>Who I Am</h2>
+
+    <p>
+        I am a BCA graduate interested in software development,
+        databases, and software testing. I want to begin my
+        career in the IT industry, contribute to meaningful
+        projects, and improve my technical skills.
+    </p>
+
+    <div class="info-grid">
+        <div class="card">
+            <h3>Education</h3>
+            <p>BCA - Garden City University</p>
+        </div>
+
+        <div class="card">
+            <h3>Location</h3>
+            <p>Bengaluru, India</p>
+        </div>
+
+        <div class="card">
+            <h3>Career Goal</h3>
+            <p>Become a skilled software developer.</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section">
+    <p class="accent">02 / My Expertise</p>
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">SQL / MySQL</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Oracle APEX</div>
+        <div class="skill">Software Testing</div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <p class="accent">03 / My Work</p>
+    <h2>My Projects</h2>
+
+    <div class="projects-grid">
+        <div class="card project-card">
+            <h3>Coffee Website</h3>
+            <p>
+                A coffee website built with HTML, CSS, and
+                JavaScript with a modern design and responsive layout.
+            </p>
+            <div class="tags">HTML · CSS · JavaScript</div>
+            <a href="https://mubi-o1k.github.io/Coffee-website/"
+               target="_blank" rel="noopener" class="project-link">
+                View Live Project →
+            </a>
+        </div>
+
+       <!-- Meeting Room Booking App Project -->
+<div class="card project-card">
+    <h3>Meeting Room Booking App</h3>
+
+    <p>
+        Developed a Meeting Room Booking Application using
+        Oracle APEX and SQL. The application helps manage
+        meeting room bookings and related information.
+    </p>
+
+    <div class="tags">
+        <span>Oracle APEX</span>
+        <span>SQL</span>
+        <span>Database Management</span>
+    </div>
+
+    <a
+        href="https://oracleapex.com/ords/r/mubiswork/meeting-room-booking-app/login"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-link">
+        View Live Project →
+    </a>
+</div>
+        View Repository →
+    </a>
+</div>
+</section>
+
+<section id="resume" class="section">
+    <p class="accent">04 / My Background</p>
+    <h2>Resume & Education</h2>
+    <p>
+        Download my resume to learn more about my education,
+        skills, projects, and experience.
+    </p>
+    <a href="resume.pdf" download class="btn">Download Resume PDF</a>
+    <p class="small-note">
+        Add your resume PDF to this folder and name it resume.pdf.
+    </p>
+</section>
+
+<section id="contact" class="section">
+    <p class="accent">05 / Contact Me</p>
+    <h2>Let's Connect</h2>
+    <p>Feel free to contact me for job opportunities and collaboration.</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="5"
+                  placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Prepare Email</button>
+        <p id="formMessage" class="small-note"></p>
+    </form>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/mubi-o1k"
+           target="_blank" rel="noopener">github.com/mubi-o1k</a>
+    </p>
+    <p>
+        Email: mubi7569@gmail.com
+    </p>
+</section>
+
+<footer>
+    <p>© <span id="year"></span> Mubishira | Personal Portfolio</p>
+    <a href="#home">Back to Top ↑</a>
+</footer>
+
+</body>
+</html>
